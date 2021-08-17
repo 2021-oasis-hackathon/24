@@ -1,16 +1,8 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-
-a {
-  color: white;
-}
-
 * {
   box-sizing: border-box;
-}
-body {
-  margin: 0;
 }
 ul ol {
   margin-top: 0;
@@ -24,7 +16,7 @@ header {
 }
 
 .header_main .go_main img {
-  width: 40px;
+  width: 80px;
   height: 40px;
 }
 
