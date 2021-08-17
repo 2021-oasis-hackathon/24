@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 700px;
+  height: 500px;
+  margin-left: -350px;
+  margin-top: -250px;
+}
+
+.center .words_1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.center .words_1 .words_1_color {
+  border-bottom: 1px solid black;
+  color: green;
+  padding: 20px 20px;
+}
+.center .words_1 span {
+  font-size: 35px;
+}
+
+.watermelon {
+  height: 100%;
+}
+.watermelon img {
+  width: 100%;
+  position: absolute;
+  top: auto;
+}
+.center .description {
+  text-align: center;
+  padding-top: 20px;
+}
+.center .description > :first-child {
+  font-size: 18px;
+}
+.center .description > :last-child {
+  font-size: 9px;
+}
+.center .imgs {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 70px;
+  margin-top: 30px;
+}
+.center .imgs img {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+}
+
+.center .buy {
+  text-align: center;
+  margin-top: 40px;
+}
+.center .buy a {
+  text-decoration: none;
+}
