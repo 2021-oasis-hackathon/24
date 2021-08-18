@@ -1,65 +1,86 @@
 body {
   margin: 0;
 }
-
-.center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 700px;
-  height: 500px;
-  margin-left: -350px;
-  margin-top: -250px;
+header,
+.buy,
+.main_description,
+.word_description {
+  max-width: 780px;
+  margin: 0 auto;
 }
 
-.center .words_1 {
-  text-align: center;
+header {
+  margin-top: 20px;
   margin-bottom: 20px;
 }
-.center .words_1 .words_1_color {
-  border-bottom: 1px solid black;
-  color: green;
-  padding: 20px 20px;
+header img {
+  width: 100px;
 }
-.center .words_1 span {
-  font-size: 35px;
+.buy_image {
+  float: left;
+}
+.buy_image img {
+  width: 350px;
+  height: 435px;
+}
+.buy_description {
+  float: right;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  color: gray;
+}
+.buy_description img {
+  width: 400px;
+}
+#insam_coupon {
+  border: 1px solid black;
+  margin: 20px 0px;
+  height: 24px;
+  font-size: 18px;
+  font-weight: 100;
 }
 
-.watermelon {
-  height: 100%;
+.buy_description .start {
+  padding: 7px 0;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
 }
-.watermelon img {
-  width: 100%;
-  position: absolute;
-  top: auto;
+
+.buy_description .halboo {
+  padding: 7px 0;
+  border-bottom: 1px solid lightgray;
 }
-.center .description {
-  text-align: center;
-  padding-top: 20px;
-}
-.center .description > :first-child {
+
+#insam_option {
+  border: 1px solid black;
+  margin-top: 20px;
+  height: 24px;
   font-size: 18px;
+  font-weight: 100;
 }
-.center .description > :last-child {
-  font-size: 9px;
-}
-.center .imgs {
-  margin-top: 40px;
+
+.buy_description .buy_btn {
   display: flex;
   justify-content: space-around;
-  margin: 0 70px;
   margin-top: 30px;
 }
-.center .imgs img {
-  border-radius: 50%;
-  width: 160px;
-  height: 160px;
+
+.buy_description .buy_btn img {
+  width: 130px;
 }
 
-.center .buy {
-  text-align: center;
-  margin-top: 40px;
+.buy_description .buy_btn > :first-child {
+  margin-left: 30px;
 }
-.center .buy a {
-  text-decoration: none;
+.buy_description .buy_btn > :last-child {
+  margin-right: 30px;
+}
+
+.main_description img {
+  width: 100%;
+}
+.word_description img {
+  width: 100%;
+  margin-top: 20px;
 }
